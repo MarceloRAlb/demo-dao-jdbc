@@ -25,6 +25,10 @@ public class Programa {
 			System.out.println(obj);
 		}
 		
-		
+		System.out.println("\n***Teste 3: Vendedor findall***");
+	    list = vendedorDao.findall();
+		for (Vendedor obj : list) {
+			System.out.println(obj);
+		}	
 	}
 }
